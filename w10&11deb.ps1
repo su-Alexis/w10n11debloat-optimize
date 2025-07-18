@@ -50,7 +50,7 @@
 ###################################################################
 ###################################################################
 ##                                                               ##
-##           LAST EDITED : 10 - 22 - 2024 01:26:21 P.M.          ##
+##           LAST EDITED : 07 - 18 - 2025 03:55:44 A.M.          ##
 ##                          Version 23H2                         ## 
 ##                                                               ##
 ###################################################################
@@ -788,7 +788,7 @@ Function BlocklistMNNSSM {
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Tue, 08 Oct 2024 at 22:13:22 GMT
+# Last updated: Thu, 17 Jul 2025 at 17:42:54 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -908,7 +908,7 @@ ff02::3		ip6-allhosts
 127.0.0.1    vortex.data.glbdns2.microsoft.com
 127.0.0.1    watson.microsoft.com
 127.0.0.1    watson.microsoft.com.nsatc.net
-127.0.0.1    watson.microsoft.com0.
+127.0.0.1    watson.mi
 
 #<shock-sites>
 # For example, to block unpleasant pages, try:
@@ -1165,6 +1165,7 @@ ff02::3		ip6-allhosts
 #127.0.0.1 metrics.ticketmaster.com	# interferes with logging in to ticketmaster.com
 #127.0.0.1 nl.sitestat.com	# may interfere with duo.nl
 #127.0.0.1 pro.hit.gemius.pl	# May interfere with some video sites
+#127.0.0.1 s.youtube.com				# Blocking this will interfere with video watching history and may interfere with Google Podcasts
 #127.0.0.1 services.krxd.net
 #127.0.0.1 stats.channel4.com
 #127.0.0.1 t2.hulu.com		# Uncomment to block Hulu.
@@ -1266,12 +1267,14 @@ ff02::3		ip6-allhosts
 127.0.0.1 bigdata.advmob.cn
 127.0.0.1 bindedge.com
 127.0.0.1 bindfast.com
+127.0.0.1 biomagin.com
 127.0.0.1 bkrtx.com
 127.0.0.1 bleachbit.com
 127.0.0.1 bluekai.com
 127.0.0.1 bluestreak.com
 127.0.0.1 brightroll.com
 127.0.0.1 brucelead.com
+127.0.0.1 bullionglidingscuttle.com
 127.0.0.1 c.go-mpulse.net
 127.0.0.1 c.statcounter.com
 127.0.0.1 c.thecounter.de
@@ -1883,7 +1886,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 s.clickability.com
 127.0.0.1 s.go-mpulse.net
 127.0.0.1 s.update.fbsbx.com 
-127.0.0.1 s.youtube.com				# Blocking this will interfere with video watching history and may interfere with Google Podcasts
 127.0.0.1 s1-tracking.adalyser.com
 127.0.0.1 s1.shinystat.it
 127.0.0.1 s10.histats.com
@@ -2030,6 +2032,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 statse.webtrendslive.com	# Fortune.com among others
 127.0.0.1 stl.p.a1.traceworks.com
 127.0.0.1 straighttangerine.cz.cc
+127.0.0.1 stratus.campaign-image.com.cn
 127.0.0.1 sugoicounter.com
 127.0.0.1 superstats.com
 127.0.0.1 sync.bfmio.com
@@ -2166,6 +2169,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tracker.remp.impresa.pt
 127.0.0.1 tracker.tradedoubler.com
 127.0.0.1 tracker1.leadiya.com
+127.0.0.1 tracking-lealcobrancaspremium.p-email.net
 127.0.0.1 tracking.10e20.com
 127.0.0.1 tracking.3com.com
 127.0.0.1 tracking.adalyser.com
@@ -2409,6 +2413,8 @@ ff02::3		ip6-allhosts
 127.0.0.1 xtrasizeoriginal.com.br
 127.0.0.1 xxxcounter.com
 127.0.0.1 xyz.freelogs.com
+127.0.0.1 zc1.campaign-view.com.cn
+127.0.0.1 zc1.maillist-manage.com.cn
 127.0.0.1 zz.cqcounter.com
 #</spyware-sites>
 #<malware-sites>
@@ -2416,6 +2422,7 @@ ff02::3		ip6-allhosts
 # sites with known trojans, phishing, or other malware
 127.0.0.1 0.nextyourcontent.com
 127.0.0.1 05tz2e9.com
+127.0.0.1 1-bmo-client-login.com
 127.0.0.1 1-directshipmtdhlsexpress-order.help
 127.0.0.1 1001paixnidia.fr
 127.0.0.1 105915624.com
@@ -2507,6 +2514,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 amayaresorts.fr
 127.0.0.1 americankitchen.fr
 127.0.0.1 ams1.ib.adnxs.com
+127.0.0.1 ams2.rumourrubicon.com
 127.0.0.1 ancree.fr
 127.0.0.1 android.bigresource.com
 127.0.0.1 androiddev.orkitra.com
@@ -2519,6 +2527,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 antispywareexpert.com
 127.0.0.1 antivirus-scanner.com
 127.0.0.1 antoinettepoisson.fr
+127.0.0.1 apconsultantgroup.com
 127.0.0.1 apel3.fr
 127.0.0.1 api.inwemo.com
 127.0.0.1 app2.letslowbefast.life
@@ -2601,6 +2610,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 bergeresdefrance.fr
 127.0.0.1 besacon.fr
 127.0.0.1 bestblackhatforum.fr
+127.0.0.1 bestoftoday.click
 127.0.0.1 bestreview.site
 127.0.0.1 bestwebpillplace.com
 127.0.0.1 bestwesterne.fr
@@ -2689,10 +2699,12 @@ ff02::3		ip6-allhosts
 127.0.0.1 campinglespins.fr
 127.0.0.1 camplace.fr
 127.0.0.1 campus-forprof.fr
+127.0.0.1 canada.postcanadakxcif.top
 127.0.0.1 canadapost-delivery-reshedule.com
 127.0.0.1 canadapost-paymentservice.com
 127.0.0.1 canadapost-postescanada.uwpackege.top
 127.0.0.1 canadapost.helpdag.top
+127.0.0.1 canadapost.postescanadad.xyz
 127.0.0.1 canadapostarticle.com
 127.0.0.1 capitalregionusa.fr
 127.0.0.1 capostdelivery.com
@@ -2790,8 +2802,10 @@ ff02::3		ip6-allhosts
 127.0.0.1 consumerspanel.frge.io
 127.0.0.1 cookeatshare.fr
 127.0.0.1 coordino.com
+127.0.0.1 cosi.iprive.net
 127.0.0.1 cosmopolian.fr
 127.0.0.1 cosmopolita.fr
+127.0.0.1 costco-rewardsaccount1.com
 127.0.0.1 costorama.fr
 127.0.0.1 countrystore.fr
 127.0.0.1 coupondio.fr
@@ -2824,6 +2838,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 dbios.org
 127.0.0.1 dealerconnection.fr
 127.0.0.1 dealiveroo.fr
+127.0.0.1 declarateenquiebra.cl
 127.0.0.1 decompiler.fr
 127.0.0.1 dejoyaux.fr
 127.0.0.1 delamaisn.fr
@@ -2842,6 +2857,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 dewinci.fr
 127.0.0.1 dfnac.fr
 127.0.0.1 dhauzja511.co.cc
+127.0.0.1 dhlmyorder82662-info-can.com
 127.0.0.1 digiclk.com
 127.0.0.1 digicub.fr
 127.0.0.1 digipote.fr
@@ -2912,6 +2928,8 @@ ff02::3		ip6-allhosts
 127.0.0.1 euriosport.fr
 127.0.0.1 europr1.fr
 127.0.0.1 eurospoprt.fr
+127.0.0.1 eurostreaming.myproxy.help
+127.0.0.1 eurostreaming.superproxy.lol
 127.0.0.1 eviebot.fr
 127.0.0.1 ewea.fr
 127.0.0.1 exasked.com
@@ -2991,6 +3009,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ftdownload.com
 127.0.0.1 fu.golikeus.net			# Facebook trojan
 127.0.0.1 g2play.fr
+127.0.0.1 gabrielahlavack.samcart.com
 127.0.0.1 gadgetsytecnologia.com
 127.0.0.1 gagy.fr
 127.0.0.1 gaiaherbs.fr
@@ -3125,6 +3144,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 install.myvideotab.com
 127.0.0.1 installmac.com
 127.0.0.1 instantstreetview.fr
+127.0.0.1 intelcomasfcmscta.com
 127.0.0.1 interac-etransfer.net
 127.0.0.1 interac1-ssl2.info
 127.0.0.1 interacpayment-cra.com
@@ -3401,6 +3421,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 missdiva.fr
 127.0.0.1 missetam.fr
 127.0.0.1 mlefigaro.fr
+127.0.0.1 mlpoo11-secondary.z13.web.core.windows.net
 127.0.0.1 mn.mn.co.cu
 127.0.0.1 mnecraft.fr
 127.0.0.1 mnutan.fr
@@ -3442,10 +3463,12 @@ ff02::3		ip6-allhosts
 127.0.0.1 mv0129.stream
 127.0.0.1 mvspjwd.com
 127.0.0.1 mx1.freemail.ne.jp
+127.0.0.1 mybancoschiles.gets-it.net
 127.0.0.1 mycaal.fr
 127.0.0.1 mycnal.fr
 127.0.0.1 mydreamday.fr
 127.0.0.1 myedebred.fr
+127.0.0.1 myhst2024.com
 127.0.0.1 mylike.co.uk				# Facebook trojan
 127.0.0.1 myornamenti.com
 127.0.0.1 myprivateemails.com
@@ -3560,6 +3583,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 paris-banlieue-meetinggame.fr
 127.0.0.1 passportindex.fr
 127.0.0.1 payments-details.com
+127.0.0.1 payplintelverify3.site
 127.0.0.1 paysdepieces.fr
 127.0.0.1 paytel.fr
 127.0.0.1 pbworks.fr
@@ -3657,6 +3681,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 purchasingpower.fr
 127.0.0.1 purepods.fr
 127.0.0.1 qbittorrent.com
+127.0.0.1 qdssy.balistrera.sbs
 127.0.0.1 qevia.doubleclick.bond
 127.0.0.1 qfsya.comfortykive.xyz
 127.0.0.1 qouv.fr
@@ -3668,6 +3693,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 qyh.co.ua
 127.0.0.1 radio42.fr
 127.0.0.1 randki-sex.com
+127.0.0.1 rapid-glade-cde8.asoumare042024.workers.dev
 127.0.0.1 raptp.fr
 127.0.0.1 rb-on1in-sec.com
 127.0.0.1 rbc-anth-ogrn.com
@@ -3678,6 +3704,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 recevoirlatntn.fr
 127.0.0.1 recover-subscription.com
 127.0.0.1 redeastbay.com
+127.0.0.1 redelivauthcentre.com
 127.0.0.1 redelivercadpost.com
 127.0.0.1 redelivtls.online
 127.0.0.1 redf.fr
@@ -3696,12 +3723,14 @@ ff02::3		ip6-allhosts
 127.0.0.1 resultatspmu.fr
 127.0.0.1 retaildetail.fr
 127.0.0.1 retrofuture.fr
+127.0.0.1 return2025costco.com
 127.0.0.1 rev-cvnada-dep.com
 127.0.0.1 rezeptwelt.fr
 127.0.0.1 rgp-ign.fr
 127.0.0.1 rickrolling.com
 127.0.0.1 rifec.co
 127.0.0.1 rimnow.fr
+127.0.0.1 riosaladohp.com
 127.0.0.1 robertgraham.fr
 127.0.0.1 rockrose.fr
 127.0.0.1 rocks.io
@@ -3874,6 +3903,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 thainationalparks.fr
 127.0.0.1 thalasur.fr
 127.0.0.1 thebestknifes.fr
+127.0.0.1 thebestone.click
 127.0.0.1 thebestwebpillplace.com
 127.0.0.1 thechive.fr
 127.0.0.1 thedatesafe.com			# Facebook trojan
@@ -3887,6 +3917,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 thunderbird.es
 127.0.0.1 tibs.fr
 127.0.0.1 ticketforchange.fr
+127.0.0.1 ticketpayfee.com
 127.0.0.1 ticketspy.fr
 127.0.0.1 tiku.io
 127.0.0.1 timberlande.fr
@@ -3955,12 +3986,14 @@ ff02::3		ip6-allhosts
 127.0.0.1 utenti.lycos.it
 127.0.0.1 utrace.fr
 127.0.0.1 van-city-sign-on.com
+127.0.0.1 vc-login.com
 127.0.0.1 vcarrefour.fr
 127.0.0.1 venturead.com
 127.0.0.1 verify.rambler-profile.site
 127.0.0.1 versbaudet.fr
 127.0.0.1 vfzzs.comfortykive.xyz
 127.0.0.1 vgsnf.comfortykive.xyz
+127.0.0.1 vi-improved.org
 127.0.0.1 viad.fr
 127.0.0.1 videoamp.com
 127.0.0.1 videofitness.fr
@@ -4028,6 +4061,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 wolverineworldwide.fr
 127.0.0.1 worldcommunitygrid.fr
 127.0.0.1 worldwidefestival.fr
+127.0.0.1 wpad # For reference: https://www.youtube.com/watch?v=uwsykPWa5Lc
 127.0.0.1 wpcgt.comfortykive.xyz
 127.0.0.1 wrontonshatbona.pro
 127.0.0.1 ws05.crypto-loot.com
@@ -4118,7 +4152,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.mshelp247.weebly.com
 127.0.0.1 www.mylike.co.uk			# Facebook trojan
 127.0.0.1 www.mylovecards.com
-127.0.0.1 www.mywot.com
 127.0.0.1 www.notepad2.com
 127.0.0.1 www.novemberrainx.com
 127.0.0.1 www.nu26.com
@@ -5572,14 +5605,14 @@ ff02::3		ip6-allhosts
 127.0.0.1 a.adtng.com
 127.0.0.1 a.applvn.com
 127.0.0.1 a.baidu.com
-127.0.0.1 a.blesk.cz 
+127.0.0.1 a.blesk.cz
 127.0.0.1 a.boom.ro
 127.0.0.1 a.cctv.com
-127.0.0.1 a.centrum.cz 
+127.0.0.1 a.centrum.cz
 127.0.0.1 a.cntv.cn
-127.0.0.1 a.denik.cz 
+127.0.0.1 a.denik.cz
 127.0.0.1 a.dynad.net
-127.0.0.1 a.iprima.cz 
+127.0.0.1 a.iprima.cz
 127.0.0.1 a.kerg.net
 127.0.0.1 a.libertystmedia.com
 127.0.0.1 a.ligatus.com
@@ -6650,6 +6683,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ads20.focalink.com
 127.0.0.1 ads21.focalink.com
 127.0.0.1 ads22.focalink.com
+127.0.0.1 ads22.host-cdn.net
 127.0.0.1 ads23.focalink.com
 127.0.0.1 ads24.focalink.com
 127.0.0.1 ads24.net
@@ -7073,6 +7107,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 amrytt.adk2x.com
 127.0.0.1 ams1-ib.adnxs.com
 127.0.0.1 ams1-mobile.adnxs.com
+127.0.0.1 ams2.rumourobey.com
 127.0.0.1 amusun.com
 127.0.0.1 an.tacoda.net
 127.0.0.1 an.yandex.ru
@@ -7318,6 +7353,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 beap.gemini.yahoo.com
 127.0.0.1 bell.adcentriconline.com
 127.0.0.1 benimreklam.com
+127.0.0.1 bespokeshirtsmail.com
 127.0.0.1 best2017games.com
 127.0.0.1 best2019-games-web1.com
 127.0.0.1 best2020-games-web1.com
@@ -7433,6 +7469,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 c.adexchangemachine.com
 127.0.0.1 c.admob.com
 127.0.0.1 c.adroll.com
+127.0.0.1 c.adsco.re
 127.0.0.1 c.amazon-adsystem.com
 127.0.0.1 c.anytrx.com
 127.0.0.1 c.ar.msn.com
@@ -8319,6 +8356,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 getmyads24.com
 127.0.0.1 getmyfreegiftcard.com
 127.0.0.1 getrelator.com
+127.0.0.1 getrunkhomuto.info
 127.0.0.1 getrxhere.co
 127.0.0.1 getspecialgifts.com
 127.0.0.1 getyour5kcredits0.blogspot.com
@@ -8346,6 +8384,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 go.padsdelivery.com
 127.0.0.1 go.padstm.com
 127.0.0.1 go.pl.bbelements.com
+127.0.0.1 go.rightdailyfeed.com
 127.0.0.1 go.spaceshipads.com
 127.0.0.1 go.stirshakead.com
 127.0.0.1 go.verymuchad.com
@@ -8544,6 +8583,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 images.jambocast.com
 127.0.0.1 images.linkwithin.com
 127.0.0.1 images.mbuyu.nl
+127.0.0.1 images.mediago.io
 127.0.0.1 images.netcomvad.com
 127.0.0.1 images.outbrain.com
 127.0.0.1 images.outbrainimg.com
@@ -8810,6 +8850,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 l.qq.com
 127.0.0.1 l.yieldmanager.net
 127.0.0.1 l2.l.qq.com
+127.0.0.1 labas-hl.de
 127.0.0.1 labashl.de
 127.0.0.1 laborex.hu
 127.0.0.1 ladyclicks.ru
@@ -9160,6 +9201,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ms-shopguide.su
 127.0.0.1 ms-shopzone.su
 127.0.0.1 ms.yandex.ru
+127.0.0.1 msft-ssp-emea.adnxs.com
 127.0.0.1 mslinks-downloads.com
 127.0.0.1 msn-cdn.effectivemeasure.net
 127.0.0.1 msn.tns-cs.net
@@ -9408,6 +9450,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 orpheus.cuci.nl
 127.0.0.1 osd-onead.cdn.hinet.net
 127.0.0.1 osm-onead.cdn.hinet.net
+127.0.0.1 otakutee.com
 127.0.0.1 otletdivak.hu
 127.0.0.1 otpercpiheno.blogspot.com
 127.0.0.1 otpercpiheno.hu
@@ -9717,6 +9760,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ps.eyeota.net
 127.0.0.1 ps.popcash.net
 127.0.0.1 ps4ux.com
+127.0.0.1 psoabojaksou.net
 127.0.0.1 pstatic.datafastguru.info
 127.0.0.1 pt-gmtdmp.mookie1.com
 127.0.0.1 pt.beststreams.club
@@ -9950,6 +9994,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 s.atemda.com
 127.0.0.1 s.baidu.com
 127.0.0.1 s.boom.ro
+127.0.0.1 s.click.aliexpress.com
 127.0.0.1 s.clickiocdn.com
 127.0.0.1 s.clicktale.net
 127.0.0.1 s.di.com.pl
@@ -10318,7 +10363,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 statsie.com
 127.0.0.1 stephanie.tnctrx.com
 127.0.0.1 stocker.bonnint.net
-127.0.0.1 stoiximan.gr
 127.0.0.1 stompebi.link
 127.0.0.1 storage.softure.com
 127.0.0.1 storage.trafic.ro
@@ -10486,6 +10530,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tmx.technoratimedia.com
 127.0.0.1 toads.osdn.com
 127.0.0.1 todayresearch.com
+127.0.0.1 toiletpaper.life
 127.0.0.1 tommasobuglioni.com
 127.0.0.1 tommysbookmarks.com
 127.0.0.1 tommysbookmarks.net
@@ -10540,11 +10585,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 tracking.internetstores.de
 127.0.0.1 tracking.joker.com
 127.0.0.1 tracking.keywordmax.com
+127.0.0.1 tracking.scientific-meets.com
 127.0.0.1 tracking.truthfinder.com
 127.0.0.1 tracking.vcommission.com
 127.0.0.1 tracking.veoxa.com
 127.0.0.1 trackvoluum.com
 127.0.0.1 tradearabia.advertserve.com
+127.0.0.1 tradecore.tradehouse.media
 127.0.0.1 tradelax.com
 127.0.0.1 tradem.com
 127.0.0.1 tradetracker.net
@@ -11433,6 +11480,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.rewardsflow.com
 127.0.0.1 www.ringtonepartner.com
 127.0.0.1 www.riskybus.f9.co.uk
+127.0.0.1 www.ritikhush.com
 127.0.0.1 www.robm674.plus.com
 127.0.0.1 www.romepartners.com
 127.0.0.1 www.roulettebotplus.com
@@ -11740,6 +11788,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 youfck.com
 127.0.0.1 your-gift-zone.com
 127.0.0.1 your.dailytopdealz.com
+127.0.0.1 youradexchange.com
 127.0.0.1 yourgascards.com
 127.0.0.1 yourgiftrewards.com
 127.0.0.1 yourgiftzone.com
@@ -11748,7 +11797,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 yoursmartrewards.com
 127.0.0.1 ysiu.freenation.com
 127.0.0.1 yt-adblocker.com
-127.0.0.1 yu.ac.kr
 127.0.0.1 yumenetworks.com
 127.0.0.1 yx-in-f108.1e100.net
 127.0.0.1 z-na.amazon-adsystem.com
