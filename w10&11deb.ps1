@@ -50,8 +50,8 @@
 ###################################################################
 ###################################################################
 ##                                                               ##
-##           LAST EDITED : 07 - 18 - 2025 03:55:44 A.M.          ##
-##                          Version 23H2                         ## 
+##           LAST EDITED : 07 - 30 - 2025 12:44:40 P.M.          ##
+##                          Version 24H2                         ## 
 ##                                                               ##
 ###################################################################
 ###################################################################
@@ -599,6 +599,8 @@ Function SystemOpti {
     $SessionPath = "HKLM:\System\CurrentControlSet\Control\Session"
     $Desktopgg = "HKCU:\Control Panel\Desktop"
     $Soundgg = "HKCU:\SOFTWARE\Microsoft\Multimedia\Audio"
+    $WinBanAlloc = "HKLM:\Software\Policies\Microsoft\Windows"
+    $WinBanAlloc2 = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Psched"
 
     #Changes clock sync to dynamic so everything uses the clock it wants not forced to one specific system clock
     Write-Host "Beginning to change Clock Sync. . ." -ForegroundColor Yellow
@@ -680,6 +682,14 @@ Function SystemOpti {
         Set-ItemProperty WaitToKillServiceTimeout -Value 2000
         Write-Color "Services have been optimized. . . " -ForegroundColor Green -BackgroundColor Black
     }
+    #Removes bandwith allocation for Windows which potentially increases download/upload as well as reduce ping
+    Write-Host "Beginning to remove Bandwith allocation for Windows. . ."
+    if (Test-Path $WinBanAlloc) {
+        New-Item -Path $WinBanAlloc -Name "Psched"
+        Start-Sleep 1
+        Set-ItemProperty $WinBanAlloc2 NonBestEffortLimit -Value 0 -Type dword 
+        Write-Color "Bandwith allocation for Windows has been removed. . ."
+    } 
 }
 
 Function AutoRunDis {
