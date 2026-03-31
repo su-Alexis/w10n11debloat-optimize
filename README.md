@@ -1,4 +1,4 @@
-# w10n11debloat-optimize
+# Windows 10 & 11 debloat & optimize
 
   Hi, I'm Alexis! This project started as a way to pass the time during quarantine and to learn PowerShell. 
 Initially, I attempted to build this script in .bat, but quickly realized it wasn't the right tool for the job—it felt like digging a river with a spork! 
