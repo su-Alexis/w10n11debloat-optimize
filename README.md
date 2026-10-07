@@ -1,5 +1,5 @@
 # ARCHIVED 
-  Update: I've now archived this file as this: https://github.com/su-Alexis/winGG10-11 is the "3rd generation" of it. The reason I archived this is because I am proud of this project as I put a lot of time in it solo and did this the Old fashioned way before AI assistance. Yes, hand-made solo with good ol' Stackoverflow & GitHub... also a lot of Redbull. Also can't forget the brave friends who ran it on their main desktops can't forget them! This project taught me a lot and I am glad I decided to do this. Hope anyone who used this saw benefit and appreciated what it offered and hopefully the new ones continue to carry the spirit of this project. 
+  Update: I've now archived this file as this: https://github.com/su-Alexis/winGG10-11 is the "3rd generation" of it. The reason I archived this is because I am proud of this project as I put a lot of time in it solo and did this the Old fashioned way before AI assistance. Yes, hand-made solo with good ol' Stackoverflow & GitHub... and a lot of Redbull. Also can't forget the brave friends who ran it on their main desktops can't forget them! This project taught me a lot and I am glad I decided to do this. Hope anyone who used this saw benefit and appreciated what it offered and hopefully the new ones continue to carry the spirit of this project. 
 
 # Windows 10 & 11 debloat & optimize
 
